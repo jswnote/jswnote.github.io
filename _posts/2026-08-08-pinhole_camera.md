@@ -22,4 +22,4 @@ $$
 
 - $f$ : 초점거리
 
-![핀홀 카메라 모델](jswnote/jswnote.github.io/images/pinhole_model.png)
+![핀홀 카메라 모델](/images/pinhole_model.png)
