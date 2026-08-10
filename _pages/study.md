@@ -10,10 +10,10 @@ author_profile: true
 
 C++에 대한 문법, 자료구조, 프로그래밍 관련 내용을 정리합니다.
 
-[Go to C++ →](/cpp/)
+[Go to C++](/cpp/)
 
 ## Computer Vision
 
 Computer Vision과 관련된 이론 및 구현 내용을 정리합니다.
 
-[Go to Computer Vision →](/computer-vision/)
+[Go to Computer Vision](/computer-vision/)
