@@ -11,18 +11,18 @@ categories:
 
 영상 기하학에서 4개의 좌표계로 분류.
 
-<div style="padding: 50px 0; text-align: center;">
-  <figure style="margin: 0;">
-    <img src="/images/coordiante.png" alt="좌표계" width="220">
-    <figcaption style="margin-top: 12px; font-size: 0.85em; color: #666;">
-      ▲ [그림] 영상 기하학 좌표계 시스템
-    </figcaption>
-  </figure>
-</div>
+<div style="margin: 30px 0; text-align: center;">
+  <img src="/images/coordinate.png"
+       alt="영상 기하학 좌표계"
+       style="width: 250px; max-width: 100%; height: auto; display: inline-block;">
 
+  <div style="margin-top: 10px; font-size: 0.85em; color: #666; text-align: center;">
+    ▲ [그림] 영상 기하학 좌표계 시스템
+  </div>
+</div>
 > **Note: 좌표축 설정**
 > 
-> <small>
+> <small> 오른손 법칙 이용하면 편리하다.
 
 
 ### 월드 좌표계
@@ -48,13 +48,14 @@ $\small P_img(x, y)$
 이러한 카메라 고유의 성질인 내부 파라미터를 통해 불필요한 요소를 제거하여 정규화된 이미지 평면에서 공통된 기하학적 특성을 분석 가능.
 </strong>
 정규 좌표계의 원점은 광학축과의 교점.
-$\small P^'(u, v)$
+$\small P'(u, v)$
 
-<div style="padding: 50px 0; text-align: center;">
-  <figure style="margin: 0;">
-    <img src="/images/normalized_plane.png" alt="정규 좌표계" width="500">
-    <figcaption style="margin-top: 12px; font-size: 0.85em; color: #666;">
-      ▲ [그림] 정규 좌표계 과정
-    </figcaption>
-  </figure>
+<div style="margin: 30px 0; text-align: center;">
+  <img src="/images/normalized_plane.png"
+       alt="정규화 평면"
+       style="width: 250px; max-width: 100%; height: auto; display: inline-block;">
+
+  <div style="margin-top: 10px; font-size: 0.85em; color: #666; text-align: center;">
+    ▲ [그림] 정규화 평면 과정
+  </div>
 </div>

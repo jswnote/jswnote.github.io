@@ -26,25 +26,28 @@ $$
 
 <table style="margin: 30px auto; border-collapse: collapse;">
   <tr>
-    <td style="padding: 10px 20px; border: 1px solid #ccc;"><strong>x 좌표</strong></td>
-    <td style="padding: 10px 20px; border: 1px solid #ccc;">$x = f\frac{X}{Z}$</td>
+    <td style="padding: 10px 20px; border: 1px solid #ccc;"><strong>공간좌표</strong></td>
+    <td style="padding: 10px 20px; border: 1px solid #ccc;">$(X, Y, Z)$</td>
   </tr>
   <tr>
-    <td style="padding: 10px 20px; border: 1px solid #ccc;"><strong>y 좌표</strong></td>
-    <td style="padding: 10px 20px; border: 1px solid #ccc;">$y = f\frac{Y}{Z}$</td>
+    <td style="padding: 10px 20px; border: 1px solid #ccc;"><strong>y 이미지 좌표</strong></td>
+    <td style="padding: 10px 20px; border: 1px solid #ccc;">$(x,y)$</td>
+  </tr>
+    <tr>
+    <td style="padding: 10px 20px; border: 1px solid #ccc;"><strong>초점거리</strong></td>
+    <td style="padding: 10px 20px; border: 1px solid #ccc;">$f$</td>
   </tr>
 </table>
 
 
-<div style="padding: 30px 0; text-align: center;">
-  <figure style="margin: 0;">
-    <img src="/images/coordinate.png"
-         alt="좌표계"
-         style="width: 220px !important; height: auto;">
-    <figcaption style="margin-top: 10px; font-size: 0.85em; color: #666;">
-      ▲ [그림] 영상 기하학 좌표계 시스템
-    </figcaption>
-  </figure>
+<div style="margin: 30px 0; text-align: center;">
+  <img src="/images/pinhole_model.png"
+       alt="핀홀 카메라"
+       style="width: 250px; max-width: 100%; height: auto; display: inline-block;">
+
+  <div style="margin-top: 10px; font-size: 0.85em; color: #666; text-align: center;">
+    ▲ [그림] 핀홀 카메라 모델
+  </div>
 </div>
 ---
 
