@@ -13,8 +13,13 @@ categories:
 
 핀홀 모델에서는 두 관계가 다음과 같이 표현됨.
 
-$x = f\frac{X}{Z}$
-$y = f\frac{Y}{Z}$
+$$
+\begin{aligned}
+x &= f\frac{X}{Z} \\
+y &= f\frac{Y}{Z}
+\end{aligned}
+$$
 
-$y = 초점거리 
+- $f$ : 초점거리
 
+![핀홀 카메라 모델](jswnote/jswnote.github.io/images/pinhole_model.png)
