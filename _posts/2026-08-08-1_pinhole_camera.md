@@ -24,16 +24,28 @@ y &= f\frac{Y}{Z}
 \end{aligned}
 $$
 
+<table style="margin: 30px auto; border-collapse: collapse;">
+  <tr>
+    <td style="padding: 10px 20px; border: 1px solid #ccc;"><strong>x 좌표</strong></td>
+    <td style="padding: 10px 20px; border: 1px solid #ccc;">$x = f\frac{X}{Z}$</td>
+  </tr>
+  <tr>
+    <td style="padding: 10px 20px; border: 1px solid #ccc;"><strong>y 좌표</strong></td>
+    <td style="padding: 10px 20px; border: 1px solid #ccc;">$y = f\frac{Y}{Z}$</td>
+  </tr>
+</table>
 
-<div style="padding: 50px 0; text-align: center;">
+
+<div style="padding: 30px 0; text-align: center;">
   <figure style="margin: 0;">
-    <img src="/images/pinhole_model.png" alt="핀홀 카메라 모델" width="150">
-    <figcaption style="margin-top: 12px; font-size: 0.85em; color: #666;">
-      ▲ [그림] 핀홀 카메라의 기하학적 투영 구조
+    <img src="/images/coordinate.png"
+         alt="좌표계"
+         style="width: 220px !important; height: auto;">
+    <figcaption style="margin-top: 10px; font-size: 0.85em; color: #666;">
+      ▲ [그림] 영상 기하학 좌표계 시스템
     </figcaption>
   </figure>
 </div>
-
 ---
 
 ### 핀홀 모델의 원리 및 실제 렌즈와의 관계
