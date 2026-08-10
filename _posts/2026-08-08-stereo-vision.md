@@ -1,5 +1,5 @@
 ---
-title: "Stereo Vision 정리"
+title: "핀홀 카메라(Pinhole Camera)"
 date: 2026-08-08
 categories:
   - Computer Vision
