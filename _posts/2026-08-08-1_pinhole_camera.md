@@ -18,7 +18,7 @@ categories:
 핀홀 모델에서는 공간 좌표와 이미지 좌표의 관계가 다음과 같이 표현됩니다.
 
 $$
-\bdnjfemegin{aligned}
+\begin{aligned}
 x &= f\frac{X}{Z} \\
 y &= f\frac{Y}{Z}
 \end{aligned}
