@@ -4,8 +4,6 @@ permalink: /study/
 author_profile: true
 ---
 
-# Study
-
 제가 공부하면서 정리한 내용을 모아놓은 공간입니다.
 
 ## C++
