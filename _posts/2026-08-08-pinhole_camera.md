@@ -23,7 +23,7 @@ $$
 - $f$ : 초점거리
 
 <p align="center">
-  <img src="/images/pinhole_model.png" alt="핀홀 카메라 모델" width="600">
+  <img src="/images/pinhole_model.png" alt="핀홀 카메라 모델" width="500">
 </p>
 
 
