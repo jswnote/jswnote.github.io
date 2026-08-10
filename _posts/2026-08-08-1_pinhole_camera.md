@@ -24,15 +24,32 @@ y &= f\frac{Y}{Z}
 \end{aligned}
 $$
 
-| 기호 | 설명 |
-| :--- | :--- |
-| **$f$** | 초점거리 (Focal length, $\text{mm}$) |
-| **$x, y$** | 이미지 평면 기하학적 좌표 ($\text{mm}$) |
-| **$X, Y, Z$** | 3차원 공간 상의 한 점 ($\text{mm}$) |
+<table style="background: transparent;">
+  <thead>
+    <tr>
+      <th style="background: transparent;">기호</th>
+      <th style="background: transparent;">설명</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="background: transparent;"><strong>$f$</strong></td>
+      <td style="background: transparent;">초점거리 (Focal length, $\text{mm}$)</td>
+    </tr>
+    <tr>
+      <td style="background: transparent;"><strong>$x, y$</strong></td>
+      <td style="background: transparent;">이미지 평면 기하학적 좌표 ($\text{mm}$)</td>
+    </tr>
+    <tr>
+      <td style="background: transparent;"><strong>$X, Y, Z$</strong></td>
+      <td style="background: transparent;">3차원 공간 상의 한 점 ($\text{mm}$)</td>
+    </tr>
+  </tbody>
+</table>
 
 <div style="padding: 50px 0; text-align: center;">
   <figure style="margin: 0;">
-    <img src="/images/pinhole_model.png" alt="핀홀 카메라 모델" width="500">
+    <img src="/images/pinhole_model.png" alt="핀홀 카메라 모델" width="300">
     <figcaption style="margin-top: 12px; font-size: 0.85em; color: #666;">
       ▲ [그림] 핀홀 카메라의 기하학적 투영 구조
     </figcaption>
