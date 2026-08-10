@@ -13,7 +13,7 @@ categories:
 
 <div style="padding: 50px 0; text-align: center;">
   <figure style="margin: 0;">
-    <img src="/images/coordinate.png" alt="좌표계" width="220">
+    <img src="/images/coordiante.png" alt="좌표계" width="220">
     <figcaption style="margin-top: 12px; font-size: 0.85em; color: #666;">
       ▲ [그림] 영상 기하학 좌표계 시스템
     </figcaption>
