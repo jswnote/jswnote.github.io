@@ -19,8 +19,7 @@ categories:
 
 $$
 \begin{aligned}
-x &= f\frac{X}{Z} \\
-y &= f\frac{Y}{Z}
+x &= f\frac{X}{Z} y &= f\frac{Y}{Z}
 \end{aligned}
 $$
 
@@ -43,7 +42,7 @@ $$
 <div style="margin: 30px 0; text-align: center;">
   <img src="/images/pinhole_model.png"
        alt="핀홀 카메라"
-       style="width: 400px; max-width: 100%; height: auto; display: inline-block;">
+       style="width: 500px; max-width: 100%; height: auto; display: inline-block;">
 
   <div style="margin-top: 10px; font-size: 0.85em; color: #666; text-align: center;">
     ▲ [그림] 핀홀 카메라 모델
@@ -53,7 +52,8 @@ $$
 
 ### 핀홀 모델의 원리 및 실제 렌즈와의 관계
 
-핀홀 카메라는 하나의 구멍을 직선으로 통과하여 반대편 벽에 상이 맺히는 원리입니다. 컴퓨터 비전의 핀홀 카메라 모델에서는 **실제 렌즈의 중심을 '투영 중심(바늘구멍)'으로 근사**하여, 이 투영 중심에서 이미지 평면까지의 거리를 **초점거리 $f$**로 모델링합니다.
+핀홀 카메라는 하나의 구멍을 직선으로 통과하여 반대편 벽에 상이 맺히는 원리입니다. 
+컴퓨터 비전의 핀홀 카메라 모델에서는 **실제 렌즈의 중심을 '투영 중심(바늘구멍)'으로 근사**하여, 이 투영 중심에서 이미지 평면까지의 거리를 **초점거리 $f$**로 모델링합니다.
 
 > **Note: 렌즈 중심과 핀홀의 대응 원리**
 > 
