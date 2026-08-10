@@ -30,7 +30,7 @@ $$
     <td style="padding: 10px 20px; border: 1px solid #ccc;">$(X, Y, Z)$</td>
   </tr>
   <tr>
-    <td style="padding: 10px 20px; border: 1px solid #ccc;"><strong>y 이미지 좌표</strong></td>
+    <td style="padding: 10px 20px; border: 1px solid #ccc;"><strong>이미지 평면 기하학적 좌표</strong></td>
     <td style="padding: 10px 20px; border: 1px solid #ccc;">$(x,y)$</td>
   </tr>
     <tr>
@@ -43,7 +43,7 @@ $$
 <div style="margin: 30px 0; text-align: center;">
   <img src="/images/pinhole_model.png"
        alt="핀홀 카메라"
-       style="width: 250px; max-width: 100%; height: auto; display: inline-block;">
+       style="width: 400px; max-width: 100%; height: auto; display: inline-block;">
 
   <div style="margin-top: 10px; font-size: 0.85em; color: #666; text-align: center;">
     ▲ [그림] 핀홀 카메라 모델
