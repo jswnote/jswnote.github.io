@@ -1,5 +1,5 @@
 ---
-title: "핀홀 카메라(Pinhole Camera)"
+title: "핀홀 카메라(Pinhole Camera)(1)"
 date: 2026-08-08
 categories:
   - Computer Vision
@@ -24,7 +24,7 @@ $$
 - $x, y$ : 이미지 평면 기하학적 좌표(mm)
 - $X, Y, Z$ : 3차원 공간 상의 한 점(mm)
 
-<p align="center">
+<p align="center" style="margin: 30px 0;">
   <img src="/images/pinhole_model.png" alt="핀홀 카메라 모델" width="500">
 </p>
 
@@ -34,3 +34,6 @@ $$
 <p style="font-size: 0.8em;">
 (원래는 3차원 공간 상의 점은 여러 방향으로 빛을 반사함. 여러 점들에서 반사된 빛들 중 렌즈 범위에 들어오고 렌즈와 수평으로 들어오는 빛들이 한 점에 모이게 되는데 그 점을 초점 거리라 정의함. 수평하지 않은 빛들과 수평한 빛들은 최종적으로 렌즈에 굴절이 되어서 이미지 센서의 한 점으로 모임. 렌즈와 수평한 빛들은 렌즈 초점이 아닌 렌즈 중심으로 직진해서 이미지 센서에 상이 맺히기 때문에 핀홀의 바늘 구멍과 대응되는 지점은 렌즈 중심임.)
 </p>
+
+
+기존의 
