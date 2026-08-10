@@ -31,7 +31,12 @@ $$
 | **$X, Y, Z$** | 3차원 공간 상의 한 점 ($\text{mm}$) |
 
 <div style="padding: 50px 0; text-align: center;">
-  <img src="/images/pinhole_model.png" alt="핀홀 카메라 모델" width="500">
+  <figure style="margin: 0;">
+    <img src="/images/pinhole_model.png" alt="핀홀 카메라 모델" width="500">
+    <figcaption style="margin-top: 12px; font-size: 0.85em; color: #666;">
+      ▲ [그림] 핀홀 카메라의 기하학적 투영 구조
+    </figcaption>
+  </figure>
 </div>
 
 ---
