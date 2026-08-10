@@ -14,7 +14,7 @@ categories:
 <div style="margin: 30px 0; text-align: center;">
   <img src="/images/coordinate.png"
        alt="영상 기하학 좌표계"
-       style="width: 200px; max-width: 100%; height: auto; display: inline-block;">
+       style="width: 400px; max-width: 100%; height: auto; display: inline-block;">
 
   <div style="margin-top: 10px; font-size: 0.85em; color: #666; text-align: center;">
     ▲ [그림] 영상 기하학 좌표계 시스템
@@ -47,7 +47,7 @@ $\small P_img(x, y)$
 <strong style="color: red;">
 이러한 카메라 고유의 성질인 내부 파라미터를 통해 불필요한 요소를 제거하여 정규화된 이미지 평면에서 공통된 기하학적 특성을 분석 가능.  
 </strong>
-정규 좌표계의 원점은 광학축과의 교점.
+정규 좌표계의 원점은 광학축과의 교점.  
 $\small P^{\prime}(u, v)$
 
 <div style="margin: 30px 0; text-align: center;">
