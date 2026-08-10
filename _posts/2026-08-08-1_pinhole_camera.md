@@ -19,7 +19,7 @@ categories:
 
 $$
 \begin{aligned}
-x &= f\frac{X}{Z} y &= f\frac{Y}{Z}
+x &= f\frac{X}{Z},  y &= f\frac{Y}{Z}
 \end{aligned}
 $$
 
