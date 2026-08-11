@@ -20,7 +20,7 @@ $P_c(X,Y,Z)$를 카메라 광학 중심에서 바라본 3차원 공간 상의 �
 
 $$
 \begin{aligned}
-x_n &= \frac{X_c}{Z_c}, \quad
+x_n &= \frac{X_c}{Z_c}
 y_n &= \frac{Y_c}{Z_c}
 \end{aligned}
 $$
