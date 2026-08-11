@@ -38,28 +38,24 @@ $$
 > <small>이미지 평면에서 어떤 점의 위치가 x[mm], y[mm]로 주어졌을 때, 이를 픽셀 단위의 거리로 변환하려면 pixel size로 나누면 됩니다.</small> 
 > 
 > $$ 
-> u' = \frac{x}{s_x}, \quad
+> u' = \frac{x}{s_x}, \qquad
 > v' = \frac{y}{s_y} 
 > $$ 
+>
 > <small>이므로 이미지 중심으로부터 약 400 pixel 떨어진 위치에 해당합니다.</small> 
 > 
 > <small>단, u', v'는 이미지 중심(주점)을 기준으로 한 픽셀 거리이며, 실제 영상의 픽셀 좌표계는 보통 좌측 상단을 (0, 0)으로 사용하기 때문에 주점의 픽셀 좌표를 (c_x, c_y)라고 하면 실제 픽셀 좌표 (u, v)는 다음과 같이 표현할 수 있습니다.</small> 
 >
 > $$ 
-> u = \frac{x}{s_x} + c_x 
-> $$ 
-> 
-> $$ 
+> u = \frac{x}{s_x} + c_x, \qquad 
 > v = \frac{y}{s_y} + c_y 
 > $$ 
 > 
 > <small>즉, 이미지 평면의 mm 좌표를 pixel size로 나누어 픽셀 단위의 거리로 바꾸고, 여기에 주점 위치를 더하면 실제 영상의 픽셀 좌표를 얻을 수 있습니다.</small>
-> <small>보통 초점거리 또한 디지털 카메라에서는 mm 단위로 표현되지만 카메라 모델에서는 픽셀 단위로 표현되기 때문에 다음과 같이 변환 작업이 이루어집니다.</small>
+> <small>보통 초점거리 또한 디지털 카메라에서는 mm 단위로 표현되지만 카메라 모델에서는 픽셀 단위로 표현되기 때문에 다음과 같이 변환 작업이 이루어집니다.</small>  
+>
 > $$ 
-> f_x = \frac{f}{s_x}
-> $$ 
-> 
-> $$ 
+> f_x = \frac{f}{s_x}, \qquad
 > f_y = \frac{f}{s_y}
 > $$ 
 
@@ -68,8 +64,8 @@ $$
 > <small>이미지 센서나 렌즈의 데이터시트를 살펴보면 다음과 같은 항목들을 쉽게 볼 수 있습니다.</small>
 >
 > <small> - pixel size   
-> - image area     
-> - active array size <small>  
+> <small> - image area     
+> <small> - active array size   
 >
 > <small>예를 들어 pixel size : 3μm x 3μm, resolution : 1600 x 1300 표기되어 있으면 현실 이미지 센서의 크기는 4.8mm x 3.9mm 정도를 나타냅니다.</small>
 > <small>이를 데이터시트의 image area와 비교하면 4857.696μm x 3955.896μm으로 나와있고 반올림 차이 정도입니다.</small>
