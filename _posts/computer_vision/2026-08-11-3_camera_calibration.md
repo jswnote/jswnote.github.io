@@ -20,7 +20,8 @@ $P_c(X,Y,Z)$를 카메라 광학 중심에서 바라본 3차원 공간 상의 �
 
 $$
 \begin{aligned}
-x_n &= {X_c}\frac{Z_c}, \qquad y_n = {Y_c}\frac{Z_c}
+x_n &= \frac{X_c}{Z_c}, \quad
+y_n &= \frac{Y_c}{Z_c}
 \end{aligned}
 $$
 
@@ -38,7 +39,7 @@ $$
 > <small>이미지 평면에서 어떤 점의 위치가 x[mm], y[mm]로 주어졌을 때, 이를 픽셀 단위의 거리로 변환하려면 pixel size로 나누면 됩니다.</small> 
 > 
 > $$ 
-> u' = \frac{x}{s_x}, \qquad 
+> u' = \frac{x}{s_x}, \quad
 > v' = \frac{y}{s_y} 
 > $$ 
 > <small>이므로 이미지 중심으로부터 약 400 pixel 떨어진 위치에 해당합니다.</small> 
@@ -60,9 +61,9 @@ $$
 >
 > <small>이미지 센서나 렌즈의 데이터시트를 살펴보면 다음과 같은 항목들을 쉽게 볼 수 있습니다.</small>
 >
-> <small> - pixel size
-> <small> - image area
-> <small> - active array size
+> <small> - pixel size <small>  
+> <small> - image area <small>  
+> <small> - active array size <small>  
 >
 > <small>예를 들어 pixel size : 3μm x 3μm, resolution : 1600 x 1300 표기되어 있으면 현실 이미지 센서의 크기는 4.8mm x 3.9mm 정도를 나타냅니다.</small>
 > <small>이를 데이터시트의 image area와 비교하면 4857.696μm x 3955.896μm으로 나와있고 반올림 차이 정도입니다.</small>
