@@ -67,9 +67,9 @@ $$
 >
 > <small>이미지 센서나 렌즈의 데이터시트를 살펴보면 다음과 같은 항목들을 쉽게 볼 수 있습니다.</small>
 >
-> <small> - pixel size <small>  
-> <small> - image area <small>  
-> <small> - active array size <small>  
+> <small> - pixel size   
+> - image area     
+> - active array size <small>  
 >
 > <small>예를 들어 pixel size : 3μm x 3μm, resolution : 1600 x 1300 표기되어 있으면 현실 이미지 센서의 크기는 4.8mm x 3.9mm 정도를 나타냅니다.</small>
 > <small>이를 데이터시트의 image area와 비교하면 4857.696μm x 3955.896μm으로 나와있고 반올림 차이 정도입니다.</small>
