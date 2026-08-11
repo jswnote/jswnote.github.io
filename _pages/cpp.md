@@ -4,4 +4,5 @@ permalink: /cpp/
 author_profile: true
 ---
 
-[Template](/template/)
+## [Template](/template/)
+## [Virutal Function](/virtual function/)
