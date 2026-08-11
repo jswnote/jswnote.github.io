@@ -25,15 +25,15 @@ $$
 
 <table style="margin: 30px auto; border-collapse: collapse;">
   <tr>
-    <td style="padding: 10px 20px; border: 1px solid #ccc;"><strong>공간좌표</strong></td>
+    <td style="padding: 10px 20px; border: 1px solid #ccc;"><strong>공간좌표 (mm)</strong></td>
     <td style="padding: 10px 20px; border: 1px solid #ccc;">$(X, Y, Z)$</td>
   </tr>
   <tr>
-    <td style="padding: 10px 20px; border: 1px solid #ccc;"><strong>이미지 평면 기하학적 좌표</strong></td>
+    <td style="padding: 10px 20px; border: 1px solid #ccc;"><strong>이미지 평면 기하학적 좌표 (mm)</strong></td>
     <td style="padding: 10px 20px; border: 1px solid #ccc;">$(x,y)$</td>
   </tr>
     <tr>
-    <td style="padding: 10px 20px; border: 1px solid #ccc;"><strong>초점거리</strong></td>
+    <td style="padding: 10px 20px; border: 1px solid #ccc;"><strong>초점거리 (mm)</strong></td>
     <td style="padding: 10px 20px; border: 1px solid #ccc;">$f$</td>
   </tr>
 </table>
