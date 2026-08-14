@@ -24,19 +24,29 @@ x_n &= \frac{X_c}{Z_c}, \qquad y_n = \frac{Y_c}{Z_c}
 \end{aligned}
 $$
 
-이미지 상에 맺힌 좌표 $P_s(x_s, y_s)$는 mm 좌표이기 때문에 그 다음 센서의 mm를 pixel로 바꾸기 위해, 다음과 같이 이미지 센서에 따른 변환 과정을 거칩니다.
+이미지 상에 맺힌 좌표 $P_s(x_s, y_s)$는 mm 좌표이기 때문에 그 다음 센서의 mm를 pixel로 바꾸기 위해, 다음과 같이 이미지 센서에 따른 변환 과정을 거칩니다.   
+<small>디지털 카메라에서 초점 거리를 mm로 사용하지만 비전 영역에서는 초점 거리 또한 pixel 단위로 변환해야합니다.</small>.   
+
+> **Note: 데이터시트를 참조한 픽셀에서 mm 변환 예시**
+>
+> <small>이미지 센서나 렌즈의 데이터시트를 살펴보면 다음과 같은 항목들을 쉽게 볼 수 있습니다.    
+>
+> - pixel size   
+> - image area     
+> - active array size
+>
+> </small>
+>
+> <small>예를 들어 pixel size : 3μm x 3μm, resolution : 1600 x 1300 표기되어 있으면 현실 이미지 센서의 크기는 4.8mm x 3.9mm 정도를 나타냅니다.</small>
+> <small>이를 데이터시트의 image area와 비교하면 4857.696μm x 3955.896μm으로 나와있고 반올림 차이 정도입니다.</small>
+> <small>이렇듯 픽셀 하나의 폭을 보통 pixel size의 가로 세로 각각 mm/pixel로 나타냅니다.</small>
+
 
 > **Note: 이미지 mm에서 픽셀 변환**
 >
-> <small>1μm = 0.001mm이므로 pixel size가 3μm x 3μm라면 다음과 같이 표현할 수 있습니다.</small>  
-> <small>3μm = 0.003mm</small> 
-> <small>따라서 한 픽셀의 크기는</small> 
-> <small>s_x = s_y = 0.003 mm/pixel</small> 
-> <small>이 됩니다.</small>
->
->
+> <small>pixel size가 3μm x 3μm라면 3μm = 0.003mm, 따라서 한 픽셀의 폭은 s_x = s_y = 0.003 mm/pixel이 됩니다.</small>. 
 > <small>이미지 평면에서 어떤 점의 위치가 x[mm], y[mm]로 주어졌을 때, 이를 픽셀 단위의 거리로 변환하려면 pixel size로 나누면 됩니다.</small> 
-> 
+> <small> 만약 1mm
 > $$ 
 > u' = \frac{x}{s_x}, \qquad
 > v' = \frac{y}{s_y} 
@@ -59,16 +69,6 @@ $$
 > f_y = \frac{f}{s_y}
 > $$ 
 
-> **Note: 데이터시트 픽셀에서 mm 변환**
->
-> <small>이미지 센서나 렌즈의 데이터시트를 살펴보면 다음과 같은 항목들을 쉽게 볼 수 있습니다.</small>
->
-> <small> - pixel size   
-> <small> - image area     
-> <small> - active array size   
->
-> <small>예를 들어 pixel size : 3μm x 3μm, resolution : 1600 x 1300 표기되어 있으면 현실 이미지 센서의 크기는 4.8mm x 3.9mm 정도를 나타냅니다.</small>
-> <small>이를 데이터시트의 image area와 비교하면 4857.696μm x 3955.896μm으로 나와있고 반올림 차이 정도입니다.</small>
 
 따라서 앞서 나온 식에
 
